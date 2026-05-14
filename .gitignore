@@ -1,16 +1,10 @@
-cat << 'EOF' > .gitignore
-
 # Python virtual environments and caches
-
 venv/
-
 __pycache__/
-
 *.pyc
 
 
 # C/C++ build files and binaries
-
 cmake-build-*/
 *.out
 *.o
@@ -19,7 +13,6 @@ cmake-build-*/
 # IDE folders
 .idea/
 .vscode/
-EOF
 
 .DS_Store
 **/.DS_Store
